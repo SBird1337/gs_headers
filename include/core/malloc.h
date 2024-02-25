@@ -15,12 +15,12 @@
 EXTERN_CALL void Alloc_IRAM(u32 n);
 
 /**
- * @address{AGFE,0801314C}
+ * @address{AGFE,08013164}
 */
 EXTERN_CALL void Free(const void *memory);
 
 /**
- * @address{AGFE,08014D78}
+ * @address{AGFE,0801314c}
 */
 EXTERN_CALL void FreeGlobal(int index);
 

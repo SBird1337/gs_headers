@@ -22,7 +22,7 @@ extern u8 *gBuffer;
 /**
  * @address{AGFE,03000000}
 */
-extern const void** gPtrs;
+extern void* gPtrs[64];
 
 /**
  * @address{AGFE,03001150}
